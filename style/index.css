@@ -75,7 +75,8 @@ h2 {
 /* Header section styling */
 header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    background-color: rgb(255,255,255, 0.8); 
 }
 .header-left {
     width: 50%;
@@ -89,7 +90,7 @@ header {
     border-radius: 5%;
 }
 .header-left nav a:hover {
-    background-color: #d90429;
+    background-color: rgb(220,20,60);
     transition-duration: 1.5s;
     color: #faf9f9;
     border: 2px solid #000;

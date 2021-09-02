@@ -68,8 +68,41 @@ body {
 h1 {
     font-size: 4rem;
 }
+h2 {
+    font-size: 3rem;
+}
 
-/* Nav section styling */
+/* Header section styling */
+header {
+    display: flex;
+    justify-content: space-between; 
+}
+.header-left {
+    width: 50%;
+}
+.header-left nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: #fff;
+    color: #4f4f4f;
+    border: 2px solid #000;
+    border-radius: 5%;
+}
+.header-left nav a:hover {
+    background-color: #d90429;
+    transition-duration: 1.5s;
+    color: #faf9f9;
+    border: 2px solid #000;
+    border-radius: 5%;
+}
+.header-right {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
 
 
 /* About section styling */

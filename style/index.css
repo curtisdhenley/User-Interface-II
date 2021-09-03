@@ -66,14 +66,18 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #faf9f9;
+    font-family: 'Dancing Script', cursive;
 }
 h2, h3 {
     font-size: 3rem;
 }
 h4 {
     font-size: 2rem;
+}
+h2, h3, h4, p, a {
+    font-family: 'Abril Fatface', cursive;
 }
 
 /* Header section styling */
@@ -171,7 +175,7 @@ footer {
     background-color: #faf9f9;
     border: 2px solid #000;
     border-radius: 5%;
-    padding: 0 0%;
+    padding: 0 2%;
 }
 .footer-left a:hover {
     color: #faf9f9;

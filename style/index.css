@@ -50,7 +50,7 @@ table {
    padding: 0;
    margin: 0;
    max-width: 100%;
-   border: 1px solid grey;
+   /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -62,17 +62,17 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     color: #faf9f9;
-    background-color: rgb(112,128,144);
+    background-color: #7f5539;
 }
 
 h1 {
     font-size: 4rem;
     color: #faf9f9;
 }
-h2 {
+h2, h3 {
     font-size: 3rem;
 }
-h3 {
+h4 {
     font-size: 2rem;
 }
 
@@ -80,19 +80,21 @@ h3 {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(112,128,144); 
+    background-color: rgb(128,0,0); 
 }
 .header-left {
     width: 50%;
 }
-.header-left nav a {
+.header-left nav a, .right a {
     font-size: 2rem;
     text-decoration: none;
-    color: #faf9f9;
+    color: #4f4f4f;
+    background-color: #faf9f9;
     border: 2px solid #000;
     border-radius: 5%;
+    padding: 0 1%;
 }
-.header-left nav a:hover {
+.header-left nav a:hover, .right a:hover {
     background-color: rgb(220,20,60);
     transition-duration: 1.5s;
     color: #faf9f9;
@@ -126,11 +128,17 @@ div.links a {
 .left img {
     width: 40%;
     border-radius: 20%;
-    margin-left: 25%;
+    margin-left: 45%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 .right {
     background-color: #000;
     color: rgb(211,211,211);
+    border-radius: 5%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 2% 2%
 }
 .right p {
     font-size: 2rem;
@@ -150,8 +158,22 @@ div.img {
 
 footer {
     text-align: center;
+    background-color: rgb(128,0,0);
 }
-
+footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #4f4f4f;
+    background-color: #faf9f9;
+    border: 2px solid #000;
+    border-radius: 5%;
+    padding: 0 1%;
+}
+footer a:hover {
+    color: #faf9f9;
+    background-color: rgb(220,20,60);
+    transition-duration: 1.5s;
+}
 
 
 

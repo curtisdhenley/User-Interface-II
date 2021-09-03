@@ -61,22 +61,26 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    color: #4f4f4f;
-    /* background-color: slategrey; */
+    color: #faf9f9;
+    background-color: rgb(112,128,144);
 }
 
 h1 {
     font-size: 4rem;
+    color: #faf9f9;
 }
 h2 {
     font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
 }
 
 /* Header section styling */
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(255,255,255, 0.8); 
+    background-color: rgb(112,128,144); 
 }
 .header-left {
     width: 50%;
@@ -84,8 +88,7 @@ header {
 .header-left nav a {
     font-size: 2rem;
     text-decoration: none;
-    background-color: #fff;
-    color: #4f4f4f;
+    color: #faf9f9;
     border: 2px solid #000;
     border-radius: 5%;
 }
@@ -102,20 +105,52 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 50%;
+    color: #faf9f9;
+}
+div.links {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+div.links a {
+    font-size: 5rem;
 }
 
-
-
 /* About section styling */
+#aboutme {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(105,105,105);
+}
+.left img {
+    width: 40%;
+    border-radius: 20%;
+    margin-left: 25%;
+}
+.right {
+    background-color: #000;
+    color: rgb(211,211,211);
+}
+.right p {
+    font-size: 2rem;
+}
 
+/* Projects section styling */
 
+div.img {
+    font-size: 1.3rem;
+}
+.img-top, .img-bottom {
+    display: flex;
+    justify-content: space-around;
+}
 
 /* Footer section styling */
 
-
-
-
-/* Projects section styling */
+footer {
+    text-align: center;
+}
 
 
 

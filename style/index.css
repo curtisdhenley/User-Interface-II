@@ -50,7 +50,7 @@ table {
    padding: 0;
    margin: 0;
    max-width: 100%;
-   border: 1px solid grey;
+   /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -235,6 +235,41 @@ footer {
         margin-left: 0%;
     }
 }
-
+@media(max-width: 500px) {
+    .header-left h1 {
+        font-size: 3.9rem;
+        margin-left: 15%;
+    }
+    .header-left nav {
+        width: 36%;
+    }
+    .header-right h2 {
+        margin-left: 16%;
+    }
+    .header-right div.links {
+        flex-wrap: wrap;
+        margin-left: 22%;
+    }
+    #projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .links a {
+        width: 50%;
+    }
+    footer div.links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+    }
+    .footer-left a {
+        width: 70%;
+        text-align: center;
+    }
+}
 
 
